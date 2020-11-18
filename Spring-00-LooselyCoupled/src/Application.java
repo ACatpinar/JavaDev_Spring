@@ -17,6 +17,11 @@ public class Application {
         MentorAccount mentor2 = new MentorAccount(partTimeMentor);
         partTimeMentor.createAccount();
 
+        /*
+        Loosely Coupling ==> an obj gets the obj to be used from external sources
+        Reduces the dependencies of a class that uses the different classes directly
+         */
+
 
 
         /*

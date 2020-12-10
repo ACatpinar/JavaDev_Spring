@@ -17,5 +17,9 @@ public class Application {
         Course course1 = container.getBean("selenium",Course.class);
 
         course1.getTeachingHours();
+
+        Course course2 = container.getBean("API",Course.class);
+
+        course2.getTeachingHours();
     }
 }

@@ -7,11 +7,22 @@ import org.springframework.stereotype.Component;
 @Component
 public class Java implements Course {
 
-    private OfficeHours officeHours;
+    /*
     @Autowired
-    public Java(OfficeHours officeHours) {
+    public void setOfficeHours(OfficeHours officeHours) {
         this.officeHours = officeHours;
     }
+
+     */
+    @Autowired
+    private OfficeHours officeHours;
+/*
+    @Autowired
+    public Java(OfficeHours officeHours) {
+
+
+ */
+
 
     public void getTeachingHours() {
         System.out.println("Weekly Teaching Hours: "+(30 +officeHours.getHours()));

@@ -7,10 +7,12 @@ import com.services.Selenium;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.PropertySource;
+
 
 @Configuration
 @ComponentScan("com")
+@PropertySource("classpath:application.properties")
 public class ApplicationConfig {
 
     @Bean   // can be applied at method level

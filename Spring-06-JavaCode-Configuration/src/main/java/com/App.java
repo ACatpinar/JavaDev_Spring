@@ -16,12 +16,12 @@ public class App {
          //course.getTeachingHours();  //"No bean named 'java' available"  -- @Component should be referred at java and selenium class after we configure in config class
 
         course.getTeachingHours(); // 30
+        System.out.println(course.toString());
 
         Course course1 = container.getBean("selenium",Course.class);
 
         course1.getTeachingHours();  // 25
-
-
+        System.out.println(course1.toString());
 
 
     }

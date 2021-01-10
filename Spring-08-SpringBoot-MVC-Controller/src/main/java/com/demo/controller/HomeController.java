@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
+@RequestMapping("/home")
 public class HomeController {
 
     @RequestMapping("/")
@@ -50,6 +51,7 @@ public class HomeController {
         System.out.println("Name is "+ name);
         return "home";
     }
+
 }
 
 //Send your request to front controller

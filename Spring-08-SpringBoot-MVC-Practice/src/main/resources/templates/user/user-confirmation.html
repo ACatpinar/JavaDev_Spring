@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New User Confirmation Page</title>
+</head>
+<body>
+    <h2>First Name: <span th:text="${user.firstName}"></span> </h2>
+    <h2>Last Name: <span th:text="${user.lastName}"></span> </h2>
+    <h2>Email: <span th:text="${user.email}"></span> </h2>
+    <h2>Gender: <span th:text="${user.gender}"></span> </h2>
+    <h2>Graduated: <span th:text="${user.graduated}"></span> </h2>
+    <h2>State: <span th:text="${user.state}"></span> </h2>
+</body>
+</html>

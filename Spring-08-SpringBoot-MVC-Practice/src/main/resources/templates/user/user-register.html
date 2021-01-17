@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New User Creation Page</title>
+</head>
+<body>
+<div align="center">
+
+    <form action="user/confirm" method="post" th:object="${user}">
+
+        <label>First Name:</label>
+        <input type="text" id="firstName" th:field="*{firstName}" >
+        <br>
+        <label>Last Name:</label>
+        <input type="text" id="lastName" th:field="*{lastName}">
+        <br>
+        <label>Email:</label>
+        <input type="email" id="email" th:field="*{email}">
+        <br>
+        <label>Gender</label>
+        <input type="radio" value="Male" th:field="*{gender}">Male
+        <input type="radio" value="Femal" th:field="*{gender}">Female
+        <br>
+        <label>Graduated:</label>
+        <input type="checkbox" th:field="*{graduated}">
+        <br>
+        <label>State</label>
+        <select th:field="*{state}">
+            <option th:each="theState : ${stateList}" th:value="${theState}" th:text="${theState}"></option>
+        </select>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+
+
+
+
+    </form>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

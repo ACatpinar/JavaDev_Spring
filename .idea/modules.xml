@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-00-LooselyCoupled/Spring-00-LooselyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-LooselyCoupled/Spring-00-LooselyCoupled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" filepath="$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/Spring-02-DI-ConstructorInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-02-DI-SetterInjection/Spring-02-DI-SetterInjection.iml" filepath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/Spring-02-DI-SetterInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-03-BeanScope-Singleton-Protetype/Spring-03-BeanScope-Singleton-Protetype.iml" filepath="$PROJECT_DIR$/Spring-03-BeanScope-Singleton-Protetype/Spring-03-BeanScope-Singleton-Protetype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-04-BeanLifeCycle/Spring-04-BeanLifeCycle.iml" filepath="$PROJECT_DIR$/Spring-04-BeanLifeCycle/Spring-04-BeanLifeCycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowired/Spring-05-JavaAnnotations-Autowired.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowired/Spring-05-JavaAnnotations-Autowired.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/Spring-05-JavaAnnotations-Component.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/Spring-05-JavaAnnotations-Component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/Spring-05-JavaAnnotations-Qualifier.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/Spring-05-JavaAnnotations-Qualifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/Spring-05-JavaAnnotations-Value.iml" filepath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/Spring-05-JavaAnnotations-Value.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDestroy/Spring-06-JavaCode-PostConstruct-PreDestroy.iml" filepath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDestroy/Spring-06-JavaCode-PostConstruct-PreDestroy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/Spring-07-SpringBoot-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-07-SpringBoot-IOC-DI-lab/Spring-07-SpringBoot-IOC-DI-lab.iml" filepath="$PROJECT_DIR$/Spring-07-SpringBoot-IOC-DI-lab/Spring-07-SpringBoot-IOC-DI-lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/Spring-08-SpringBoot-MVC-Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/Spring-08-SpringBoot-MVC-Form.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/Spring-08-SpringBoot-MVC-Form.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)/Spring-08-SpringBoot-MVC-Model-View(Thymeleaf).iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)/Spring-08-SpringBoot-MVC-Model-View(Thymeleaf).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Practice/Spring-08-SpringBoot-MVC-Practice.iml" filepath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Practice/Spring-08-SpringBoot-MVC-Practice.iml" />
+    </modules>
+  </component>
+</project>
